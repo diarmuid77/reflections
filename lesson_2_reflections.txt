@@ -3,3 +3,16 @@ a .git folder(directory) is created to enable the tracking of commits on files i
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 staging area holds files that are ready to commit. Once work on all files in the working directory has reached a logical commit stage, files in the staging area can be committed together.
+
+How can you use the staging area to make sure you have one commit per logical change?
+multiple files can be added to the staging area after editing and only be commited when all neccessary files have been edited
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+working on experimental features, multiple developers working on aspects of same project. original (master) branch remains operational while other development is performed.
+
+How do the diagrams help you visualize the branch structure?
+easy to see branch tipps, origins and unreachable commits.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros: doesnt automatically make harmful decisions about what is correct,
+cons: doesnt recognise simple conflicts that have no affect
