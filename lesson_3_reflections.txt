@@ -31,3 +31,8 @@ affect the original repository that was forked.
     if I'm not ready to merge those changes into my own branches yet.  Then if I
     want, I can perform the merge while offline, or I need to know what the
     remote version is at some point, I have an easy way to access it.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder? 
+It would be much harder to collaborate without using git or github. Users would have to work on different files. 
+files could be hosyted on dropbox but it would be necessary to ensure that only one person could work on a given 
+file at a time.
