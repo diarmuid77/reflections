@@ -3,3 +3,20 @@ When collaborating with others.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 more control over local repository. if conflicts exist it is possible to resolve them when manually pulling. Automatically pulling could cause problems with  code that has not been committed/pushed.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A fork is a copy of another reposiory on GitHub. The fork is hosted on GitHub. A clone is is a copy of a repository stored on your local machine. changes made to the clone can be pushed to the fork but do not affect the original repository that was forked. 
+	Forks, clones, and branches are all ways to add new changes without
+    affecting the existing version.  With branches the new changes are added in
+    the same repository.  Forking and cloning both copy an entire repository to
+    a new location.  The difference between forking and cloning is that forking
+    is a special construct made by GitHub.  You can only fork a GitHub
+    repository to another location on GitHub, while you can clone any Git
+    repository to anywhere you have access to.
+
+    I use branching for most cases where I want to add new changes to a
+    repository while keeping an easy reference to a previous version, especially
+    when collaborating with other people.  I clone a repository on GitHub when I
+    want to work on that repository locally rather than using the GitHub
+    website.  I fork a repository on GitHub when I want to make changes to that
+    repository public, but I don't have permission to modify the original.
